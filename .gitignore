@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entorno virtual
+env1/
+
+# Base de datos
+db.sqlite3
+db.sqlite3-journal
