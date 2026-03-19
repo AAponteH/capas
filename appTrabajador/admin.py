@@ -10,8 +10,8 @@ class CargoAdmin(admin.ModelAdmin):
 admin.site.register(Cargo, CargoAdmin)
 
 class TrabajadorAdmin(admin.ModelAdmin):
-    list_display = ('nombre_trabajador', 'cargo', 'telefono', 'direccion', 'ci')
+    list_display = ('nombre_trabajador', 'ci', 'Cargo', 'telefono', 'fecha_contratacion')
     search_fields = ('nombre_trabajador', 'ci')
-    list_filter = ('cargo',)
+    list_filter = ('Cargo',)
 
 admin.site.register(Trabajador, TrabajadorAdmin)
