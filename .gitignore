@@ -10,3 +10,5 @@ env1/
 # Base de datos
 db.sqlite3
 db.sqlite3-journal
+
+manage.py
