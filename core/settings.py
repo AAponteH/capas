@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'appConductor.apps.AppconductorConfig',
     'appLote.apps.ApploteConfig',
     'appVenta.apps.AppventaConfig',
+    'appTrabajador.apps.ApptrabajadorConfig',
 ]
 
 MIDDLEWARE = [
